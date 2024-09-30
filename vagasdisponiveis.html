@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vagas do Condomínio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Vagas Disponíveis no Condomínio</h1>
+    
+    
+    <div id="vaga-lista" aria-live="polite"></div>
+    
+    <h2>Cadastrar Nova Vaga</h2>
+    <form id="vaga-form" aria-labelledby="vaga-descricao">
+        <input type="text" id="vaga-descricao" placeholder="Descrição da Vaga" required aria-required="true">
+        <button type="submit">Adicionar Vaga</button>
+    </form>
+
+    <a href="listar.html" class="button">Ver Todas as Vagas</a>
+    
+    <script src="cadastrodevagas.js"></script>
+</body>
+</html>
+
+
